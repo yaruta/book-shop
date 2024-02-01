@@ -1,0 +1,42 @@
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 1rem;
+}
+
+.formInput > input {
+    height: 3rem;
+    padding: .1rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border: 1px solid grey;
+    padding-left: .5rem;
+}
+
+.formInput > label {
+    font-size: .8rem;
+    color: grey;
+    padding-bottom: .3rem;
+    padding-top: 1rem;
+}
+
+.formInput > span {
+    display: none;
+    color: red;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    font-size: .8rem;
+}
+
+.formInput > input:invalid[focused="true"] {
+    border: 1px solid red;
+}
+
+.formInput > input:invalid[focused="true"] ~ span {
+    display: block;
+}
+
+
+
+

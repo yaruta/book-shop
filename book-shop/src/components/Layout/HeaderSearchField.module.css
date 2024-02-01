@@ -1,0 +1,28 @@
+.search-field {
+    height: 2rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 1.2rem;
+    position: absolute;
+    right: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem;
+    padding-right: .5rem;
+    width: 15rem;
+}
+
+.search-field > input{
+    border: none;
+    text-align: right;
+    padding-bottom: .2rem;
+    padding-right: .3rem;
+    width: 90%;
+    outline: none;
+}
+
+.search-field > button {
+    background-color: transparent;
+    border: none;
+}

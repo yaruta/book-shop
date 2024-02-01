@@ -1,0 +1,30 @@
+.card input {
+    height: 2rem;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.card input:first-of-type,
+.card input:nth-of-type(2) {
+    border-bottom: none;
+}
+
+.card input:invalid[blured="true"] {
+    border: 1px solid red;
+}
+
+.card input:first-of-type:invalid[blured="true"],
+.card input:nth-of-type(2):invalid[blured="true"] {
+    border-bottom: none;
+}
+
+.card span {
+    display: none;
+    color: red;
+    font-size: .8rem;
+    padding-top: 1rem;
+}
+
+.card input:invalid[blured="true"]~span {
+    display: block;
+}

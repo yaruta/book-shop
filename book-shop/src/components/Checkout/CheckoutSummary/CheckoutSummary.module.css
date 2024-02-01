@@ -1,0 +1,16 @@
+.checkoutSummary {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    margin-top: 4.5rem;
+}
+
+@media (max-width: 992px) {
+    .checkoutSummary {
+        width: 100%;
+        padding-left: 0;
+        
+    }
+
+}

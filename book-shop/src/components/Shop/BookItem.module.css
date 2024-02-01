@@ -1,0 +1,72 @@
+.shop-item {
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shop-item>a {
+    text-decoration: none;
+    color: black;
+}
+
+.shop-item img {
+    height: 15rem;
+    width: auto;
+    max-width: 12rem;
+    border-radius: .5rem;
+    padding-bottom: 1rem;
+}
+
+.book-info {
+    text-align: left;
+}
+
+.book-info>h2 {
+    font-size: 1rem;
+}
+
+.book-info>p {
+    font-size: 0.9rem;
+}
+
+.shop-item h2,
+.shop-item p {
+    margin: 0;
+}
+
+.price-add-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    position: static;
+}
+
+.price-add-area>span {
+    font-weight: bold;
+    color: rgb(39, 69, 150);
+}
+
+.price-add-area button {
+    border: none;
+    width: 2.7rem;
+    height: 2.7rem;
+    background-color: white;
+}
+
+.price-add-area button> :only-child {
+    filter: invert(0.5);
+}
+
+.price-add-area button:hover> :only-child {
+    filter: invert(0.3);
+}
+
+.price-add-area button:active> :only-child {
+    filter: invert(0.1);
+}

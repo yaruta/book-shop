@@ -1,0 +1,25 @@
+.checkoutContent {
+    display: flex;
+    justify-content: stretch;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1200px) {
+    .checkoutContent {
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    .checkoutContent {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .checkoutContent {
+        width: 90%;
+    }
+}

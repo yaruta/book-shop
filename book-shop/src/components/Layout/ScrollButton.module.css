@@ -1,0 +1,19 @@
+.scroll-button {
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    top: 6.2rem;
+    right: 2.7rem;
+    background-color: white;
+    border: none;
+    
+}
+
+.scroll-button > :only-child {
+    filter: invert(0.7);
+}
+
+.scroll-button > :only-child:hover,
+.scroll-button > :only-child:active {
+    filter: invert(0.4);
+}

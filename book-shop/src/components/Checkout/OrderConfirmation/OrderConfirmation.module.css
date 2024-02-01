@@ -1,0 +1,34 @@
+.checkoutContent {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.checkoutContent  a{
+    color: rgb(26, 50, 184);
+    text-decoration: none;
+}
+
+.checkoutContent  a:hover,
+.checkoutContent  a:active{
+    color: black;
+}
+
+.confirmation {
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    .checkoutContent {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .checkoutContent {
+        width: 90%;
+    }
+}

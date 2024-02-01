@@ -1,0 +1,39 @@
+.shop-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+@media (max-width: 1648px) {
+    .shop-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1400px) {
+    .shop-list {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .shop-list {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .shop-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 650px) {
+    .shop-list {
+        grid-template-columns: 1fr;
+    }
+}

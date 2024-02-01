@@ -1,0 +1,16 @@
+.paypal span {
+    display: none;
+    color: red;
+    font-size: .8rem;
+    padding-top: 1rem;
+}
+
+.paypal input {
+    height: 2rem;
+    padding-left: .5rem;
+    width: 60%;
+}
+
+.paypal input:invalid[blured="true"]~span {
+    display: block;
+}

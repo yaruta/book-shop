@@ -1,0 +1,31 @@
+.navigation-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-typ1 {
+    border: 1px solid rgb(87, 87, 87);
+    background-color: rgb(87, 87, 87);
+    color: white;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.button-typ2 {
+    border: 1px solid rgb(87, 87, 87);
+    background-color: white;
+    color: rgb(87, 87, 87);
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.navigation-buttons > a{
+    color: grey;
+    align-self: flex-end;
+    font-size: .9rem;
+}
+
+.navigation-buttons > a:hover,
+.navigation-buttons > a:active{
+    color: black;
+}
